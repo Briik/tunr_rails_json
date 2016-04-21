@@ -13,3 +13,4 @@
 /tmp
 /.secrets/*
 environment.yml
+.secrets.yml
