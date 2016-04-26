@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Now start server with '$ thin --pid tmp/pids/thin.pid -d --log log/thin.log start'
+gem 'thin'
+# figaro hides enables ENV['variables'] in our important .yml file.
 gem 'figaro'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
