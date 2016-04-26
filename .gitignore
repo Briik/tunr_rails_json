@@ -5,6 +5,7 @@
 /log/*
 !/log/.keep
 /tmp
+<<<<<<< HEAD
 
 # Compiled source #
 ###################
@@ -44,4 +45,9 @@
 ehthumbs.db
 Thumbs.db
 
-config/application.yml
+/.secrets/*
+environment.yml
+.secrets.yml
+
+# Ignore application configuration
+/config/application.yml
