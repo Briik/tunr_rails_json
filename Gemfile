@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 # Now start server with '$ thin --pid tmp/pids/thin.pid -d --log log/thin.log start'
 gem 'thin'
+# AWS Ruby SKD! For dangerous automation of expensive operations!
+gem 'aws-sdk', '~> 2'
 # figaro hides enables ENV['variables'] in our important .yml file.
 gem 'figaro'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
