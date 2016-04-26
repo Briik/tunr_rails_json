@@ -1,7 +1,7 @@
 <h2>Edit Artist</h2>
 
+<h3>You are editing <%= @artist.name %></h3>
 
 <%= render 'form' %>
 
 <%= link_to 'Delete!', artist_path(@artist), method: :delete, class: 'delete' %>
-
