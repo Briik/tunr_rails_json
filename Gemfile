@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Now start server with '$ thin -d -l PATH_to_logfile start'
+# Now start server with '$ thin --pid tmp/pids/thin.pid -d --log log/thin.log start'
 gem 'thin'
 # figaro hides enables ENV['variables'] in our important .yml file.
 gem 'figaro'
