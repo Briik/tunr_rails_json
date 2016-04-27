@@ -51,6 +51,7 @@ class ArtistsController < ApplicationController
   # PATCH/PUT /artists/1
   # PATCH/PUT /artists/1.json
   def update
+    @artist = Artist.find( params[:id] )
     respond_to do |format|
       if @artist.update(artist_params)
         format.html { redirect_to @artist, notice: 'Artist was successfully updated.' }
